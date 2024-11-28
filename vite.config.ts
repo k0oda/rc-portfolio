@@ -33,4 +33,5 @@ export default defineConfig({
       usePolling: true,
     },
   },
+  base: '/rc-portfolio/',
 })
