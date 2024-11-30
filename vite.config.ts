@@ -26,6 +26,7 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
+      '@public': fileURLToPath(new URL('public/', import.meta.url)),
     },
   },
   server: {

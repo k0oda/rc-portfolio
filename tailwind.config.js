@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: ["class"],
+  darkMode: ["selector"],
   content: [
     './pages/**/*.{ts,tsx}',
     './components/**/*.{ts,tsx}',
@@ -93,13 +93,22 @@ module.exports = {
   					transform: 'scale(2)',
   					opacity: '0'
   				}
-  			}
+  			},
+			  meteor: {
+				"0%": { transform: "rotate(215deg) translateX(0)", opacity: "1" },
+				"70%": { opacity: "1" },
+				"100%": {
+				  transform: "rotate(215deg) translateX(-500px)",
+				  opacity: "0",
+				},
+			  },
   		},
   		animation: {
   			'accordion-down': 'accordion-down 0.2s ease-out',
   			'accordion-up': 'accordion-up 0.2s ease-out',
   			grid: 'grid 15s linear infinite',
-  			rippling: 'rippling var(--duration) ease-out'
+  			rippling: 'rippling var(--duration) ease-out',
+			"meteor-effect": "meteor 5s linear infinite",
   		}
   	}
   },

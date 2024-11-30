@@ -71,5 +71,6 @@
   body {
     @apply bg-background text-foreground;
     @apply font-geist;
+    @apply overflow-hidden;
   }
 }
