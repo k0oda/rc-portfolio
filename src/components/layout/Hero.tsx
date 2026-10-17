@@ -63,7 +63,7 @@ export function Hero() {
                   <a className='h-auto w-auto' href="https://t.me/dak0oda" target='_blank'><FaTelegramPlane /></a>
                 </Button>
                 <Button asChild variant="ghost">
-                  <a className='h-auto w-auto' href="https://www.linkedin.com/in/evgenii-kuleshov-0602a4b2/" target='_blank'><FaLinkedinIn /></a>
+                  <a className='h-auto w-auto' href="https://www.linkedin.com/in/k0oda/" target='_blank'><FaLinkedinIn /></a>
                 </Button>
                 <Button asChild variant="ghost">
                   <a className='h-auto w-auto' href="https://stackoverflow.com/users/10961991/k0oda" target='_blank'><FaStackOverflow /></a>
